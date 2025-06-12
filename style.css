@@ -1,84 +1,73 @@
+/* Latar belakang biru tua */
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Arial', sans-serif;
-  background: linear-gradient(to bottom right, #004080, #0066cc); /* biru tua */
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  padding-top: 40px;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom right, #00264d, #004080); /* biru tua */
 }
 
-/* Buat kotak putih di tengah */
+/* Buat kontainer isi sertifikat di tengah dan besar */
 .container {
-  background-color: #ffffff;
-  border-radius: 16px;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
-  padding: 40px;                /* Tambah ruang dalam */
-  max-width: 650px;             /* Lebarkan kotaknya */
-  width: 95%;
-  margin-top: 40px;
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: white;
+  padding: 40px 50px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  text-align: center; /* Agar semua isi teks awal di tengah */
 }
 
-.container {
-  background-color: #ffffff;
-  border-radius: 16px;
-  padding: 40px;
-  max-width: 700px;  /* ubah ukuran agar lebih besar */
-  width: 90%;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
-  text-align: center;
-}
-
+/* Logo di tengah dan cukup besar */
 .logo {
-  width: 150px;           /* Membesarkan logo */
-  margin-bottom: 5px;     /* Supaya lebih dekat dengan teks di bawahnya */
-  margin-top: 10px;       /* Supaya tidak terlalu nempel di atas */
+  display: block;
+  margin: 0 auto 20px;
+  max-width: 150px;
 }
 
+/* Judul utama */
 h1 {
-  font-size: 22px;
-  margin-bottom: 5px;
-  color: #333;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  line-height: 1.4;
 }
 
+/* No Sertifikat */
 .no-sertifikat {
-  font-size: 14px;
-  color: #666;
-  margin-bottom: 20px;
+  font-size: 16px;
+  color: #1d3557;
+  font-style: italic;
+  margin-bottom: 30px;
 }
 
+/* Kotak info identitas */
 .info-box {
-  text-align: left;
-  margin-top: 20px;
+  margin-top: 30px;
+  text-align: left; /* Kembali ke kiri untuk isi data */
 }
 
 .row {
   display: flex;
   justify-content: space-between;
-  background-color: #f4f6f9;
-  padding: 12px 15px;
-  margin-bottom: 10px;
-  border-radius: 8px;
-  font-size: 14px;
+  padding: 8px 0;
+  border-bottom: 1px solid #ccc;
 }
 
+.row span {
+  font-size: 16px;
+}
+
+/* Teks "VALID" warna hijau */
 .valid {
   color: green;
-  font-weight: bold;
 }
 
-.qr {
-  margin-top: 20px;
-}
-footer {
-  text-align: center;
-  padding: 30px 20px;
-  background: #f9f9f9;
-  border-top: 1px solid #ddd;
+/* Footer */
+.footer {
   margin-top: 40px;
-  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+  color: #555;
+  text-align: center;
 }
 
 .footer-title {
