@@ -1,75 +1,77 @@
+/* Latar belakang biru tua */
 body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background: linear-gradient(to bottom right, #003366, #0059b3); /* biru tua */
+  background: linear-gradient(to bottom right, #00264d, #004080); /* biru tua */
 }
 
-.page-background {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  padding-top: 30px;
-}
-
+/* Kontainer isi sertifikat */
 .container {
-  background-color: white;
-  padding: 40px;
   max-width: 900px;
   width: 90%;
+  margin: 50px auto;
+  padding: 40px;
+  background-color: white;
   border-radius: 10px;
-  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
 
+/* Logo */
 .logo {
-  width: 100px;
-  margin-bottom: 10px;
+  display: block;
+  margin: 0 auto 20px auto;
+  width: 120px; /* ukuran diperbesar */
 }
 
+/* Judul besar dan rata tengah */
 h1 {
-  font-size: 22px;
-  margin-bottom: 5px;
-  color: #333;
+  font-size: 28px; /* diperbesar */
+  font-weight: bold;
+  margin: 10px 0;
+  text-align: center;
 }
 
+/* Nomor sertifikat di tengah */
 .no-sertifikat {
-  font-size: 14px;
-  color: #666;
-  margin-bottom: 20px;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
+/* Info kotak data */
 .info-box {
-  text-align: left;
   margin-top: 20px;
 }
 
 .row {
   display: flex;
   justify-content: space-between;
-  background-color: #f4f6f9;
-  padding: 12px 15px;
-  margin-bottom: 10px;
-  border-radius: 8px;
-  font-size: 14px;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
 }
 
+.row span:first-child {
+  font-weight: bold;
+  text-align: left;
+}
+
+.row span:last-child {
+  text-align: right;
+}
+
+/* Teks "VALID" warna hijau */
 .valid {
   color: green;
-  font-weight: bold;
 }
 
-.qr {
-  margin-top: 20px;
-}
-footer {
-  text-align: center;
-  padding: 30px 20px;
-  background: #f9f9f9;
-  border-top: 1px solid #ddd;
+/* Footer */
+.footer {
   margin-top: 40px;
-  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+  color: #555;
+  text-align: center;
 }
 
 .footer-title {
