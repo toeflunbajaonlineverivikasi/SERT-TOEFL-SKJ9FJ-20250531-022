@@ -8,7 +8,7 @@ body {
 
 /* Kontainer utama */
 .container {
-  max-width: 600px;
+  max-width: 800px;
   margin: 40px auto;
   background: white;
   padding: 30px 20px;
@@ -20,7 +20,7 @@ body {
 /* Logo */
 .logo {
   max-width: 100px;
-  margin-bottom: 5px; /* dari 20px ke 5px agar lebih dekat ke teks */
+  margin-bottom: 3px; /* dari 20px ke 5px agar lebih dekat ke teks */
 }
 
 /* Judul */
