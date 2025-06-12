@@ -6,59 +6,55 @@ body {
   background: linear-gradient(to bottom right, #00264d, #004080); /* biru tua */
 }
 
-/* Kontainer isi sertifikat */
+/* Buat kontainer isi sertifikat di tengah dan besar */
 .container {
-  max-width: 900px;
-  width: 90%;
+  max-width: 800px;
   margin: 50px auto;
-  padding: 40px;
   background-color: white;
-  border-radius: 10px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  text-align: center;
+  padding: 40px 50px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  text-align: center; /* Agar semua isi teks awal di tengah */
 }
 
-/* Logo */
+/* Logo di tengah dan cukup besar */
 .logo {
   display: block;
-  margin: 0 auto 20px auto;
-  width: 120px; /* ukuran diperbesar */
+  margin: 0 auto 20px;
+  max-width: 150px;
 }
 
-/* Judul besar dan rata tengah */
+/* Judul utama */
 h1 {
-  font-size: 28px; /* diperbesar */
+  font-size: 32px;
   font-weight: bold;
-  margin: 10px 0;
-  text-align: center;
+  margin-bottom: 10px;
+  line-height: 1.4;
 }
 
-/* Nomor sertifikat di tengah */
+/* No Sertifikat */
 .no-sertifikat {
   font-size: 16px;
-  text-align: center;
+  color: #1d3557;
+  font-style: italic;
   margin-bottom: 30px;
 }
 
-/* Info kotak data */
+/* Kotak info identitas */
 .info-box {
-  margin-top: 20px;
+  margin-top: 30px;
+  text-align: left; /* Kembali ke kiri untuk isi data */
 }
 
 .row {
   display: flex;
   justify-content: space-between;
-  padding: 10px 0;
+  padding: 8px 0;
   border-bottom: 1px solid #ccc;
 }
 
-.row span:first-child {
-  font-weight: bold;
-  text-align: left;
-}
-
-.row span:last-child {
-  text-align: right;
+.row span {
+  font-size: 16px;
 }
 
 /* Teks "VALID" warna hijau */
