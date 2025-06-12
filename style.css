@@ -1,40 +1,31 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Arial', sans-serif;
-  background: linear-gradient(to bottom right, #004080, #0066cc); /* biru tua */
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom right, #003366, #0059b3); /* biru tua */
+}
+
+.page-background {
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  padding-top: 40px;
-}
-
-/* Buat kotak putih di tengah */
-.container {
-  background-color: #ffffff;
-  border-radius: 16px;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
-  padding: 40px;                /* Tambah ruang dalam */
-  max-width: 650px;             /* Lebarkan kotaknya */
-  width: 95%;
-  margin-top: 40px;
+  padding-top: 30px;
 }
 
 .container {
-  background-color: #ffffff;
-  border-radius: 16px;
+  background-color: white;
   padding: 40px;
-  max-width: 700px;  /* ubah ukuran agar lebih besar */
+  max-width: 900px;
   width: 90%;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
-  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  text-align: center;
 }
 
 .logo {
-  width: 150px;           /* Membesarkan logo */
-  margin-bottom: 5px;     /* Supaya lebih dekat dengan teks di bawahnya */
-  margin-top: 10px;       /* Supaya tidak terlalu nempel di atas */
+  width: 100px;
+  margin-bottom: 10px;
 }
 
 h1 {
