@@ -24,7 +24,7 @@ body {
 }
 
 /* Judul */
-h1 {
+h1, h2 {
   font-size: 24px;
   font-weight: bold;
   color: #1a1a1a;
@@ -91,9 +91,29 @@ h1 {
   }
 
   .value {
-    margin-top: 5px;
-  }
+    margin-top: 5px;
+  }
 }
+
+/* Bagian field tambahan */
+.field {
+  margin: 12px 0;
+  text-align: left;
+}
+
+.field label {
+  display: block;
+  font-weight: bold;
+  color: #444;
+}
+
+.field span {
+  display: block;
+  margin-top: 4px;
+  font-size: 15px;
+}
+
+/* Footer bagian bawah */
 footer {
   text-align: center;
   padding: 30px 20px;
@@ -123,5 +143,5 @@ footer {
 .copyright {
   margin-top: 10px;
   font-size: 13px;
-  color: #777;
+  color: #777;
 }
