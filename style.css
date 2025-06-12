@@ -1,100 +1,101 @@
-/* Latar belakang biru tua */
 body {
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
-  background: linear-gradient(to bottom right, #00264d, #004080);
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to bottom right, #004080, #0066cc); /* biru tua */
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 40px;
 }
 
-/* Kontainer isi sertifikat */
+/* Buat kotak putih di tengah */
 .container {
-  max-width: 800px;
-  margin: 50px auto;
-  background-color: white;
-  padding: 40px 50px;
-  border-radius: 15px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
-  text-align: center;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  padding: 40px;                /* Tambah ruang dalam */
+  max-width: 650px;             /* Lebarkan kotaknya */
+  width: 95%;
+  margin-top: 40px;
 }
 
-/* Logo UNBAJA di tengah */
+.container {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 40px;
+  max-width: 700px;  /* ubah ukuran agar lebih besar */
+  width: 90%;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
 .logo {
-  display: block;
-  margin: 0 auto 20px;
-  max-width: 120px;
+  width: 150px;           /* Membesarkan logo */
+  margin-bottom: 5px;     /* Supaya lebih dekat dengan teks di bawahnya */
+  margin-top: 10px;       /* Supaya tidak terlalu nempel di atas */
 }
 
-/* Judul utama */
 h1 {
-  font-size: 32px;
-  font-weight: bold;
-  margin: 0 0 10px;
-  line-height: 1.4;
+  font-size: 22px;
+  margin-bottom: 5px;
+  color: #333;
 }
 
-/* No Sertifikat */
 .no-sertifikat {
-  font-size: 16px;
-  font-style: italic;
-  color: #1d3557;
-  margin-bottom: 30px;
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
 }
 
-/* Box data */
 .info-box {
-  margin-top: 20px;
   text-align: left;
+  margin-top: 20px;
 }
 
-/* Baris isi data */
 .row {
   display: flex;
   justify-content: space-between;
-  padding: 10px 0;
-  font-size: 16px;
-  border-bottom: 1px solid #ccc;
+  background-color: #f4f6f9;
+  padding: 12px 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  font-size: 14px;
 }
 
-/* Label dan isi data */
-.label {
-  font-weight: bold;
-  color: #333;
-}
-
-.value {
-  color: #333;
-  text-align: right;
-}
-
-/* Teks "VALID" */
 .valid {
   color: green;
   font-weight: bold;
 }
 
-/* Footer */
-.footer {
-  margin-top: 40px;
-  font-size: 14px;
-  color: #555;
+.qr {
+  margin-top: 20px;
+}
+footer {
   text-align: center;
+  padding: 30px 20px;
+  background: #f9f9f9;
+  border-top: 1px solid #ddd;
+  margin-top: 40px;
+  font-family: 'Arial', sans-serif;
 }
 
 .footer-title {
   font-weight: 600;
+  color: #555;
   font-size: 14px;
   line-height: 1.6;
+}
+
+.footer-title em {
+  font-style: italic;
   color: #555;
 }
 
 .footer-title strong {
   font-weight: bold;
   color: #333;
-}
-
-.footer-title em {
-  font-style: italic;
-  color: #555;
 }
 
 .copyright {
