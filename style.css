@@ -19,7 +19,7 @@ body {
 
 /* Logo */
 .logo {
-  max-width: 100px;
+  max-width: 200px;
   margin-bottom: 3px; /* dari 20px ke 5px agar lebih dekat ke teks */
 }
 
@@ -35,7 +35,7 @@ h1, h2 {
 
 /* Nomor sertifikat */
 .no-sertifikat {
-  font-size: 14px;
+  font-size: 20px;
   color: #444;
   margin-bottom: 20px;
 }
