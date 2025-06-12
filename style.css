@@ -8,7 +8,7 @@ body {
 
 /* Kontainer */
 .container {
-  max-width: 800px;
+  max-width: 780px;
   margin: 20px auto; /* lebih kecil jarak atas-bawah */
   background: white;
   padding: 15px 20px; /* padding dikurangi agar konten lebih rapat */
