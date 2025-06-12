@@ -9,9 +9,9 @@ body {
 /* Kontainer */
 .container {
   max-width: 800px;
-  margin: 30px auto;
+  margin: 20px auto; /* lebih kecil jarak atas-bawah */
   background: white;
-  padding: 20px;
+  padding: 15px 20px; /* padding dikurangi agar konten lebih rapat */
   border-radius: 15px;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
   text-align: center;
@@ -20,25 +20,24 @@ body {
 /* Logo */
 .logo {
   max-width: 150px;
-  margin-bottom: 5px; /* Lebih dekat ke teks */
+  margin-bottom: 0px; /* hapus jarak ke bawah */
 }
 
 /* Judul */
 h1 {
-  font-size: 32px;
+  font-size: 40px; /* lebih besar */
   font-weight: bold;
   color: #1a1a1a;
-  line-height: 1.2;
-  margin-bottom: 5px; /* Lebih dekat ke no sertifikat */
+  line-height: 1.1;
+  margin-bottom: 4px; /* kecilkan jarak ke bawah */
 }
 
 /* Nomor sertifikat */
 .no-sertifikat {
   font-size: 18px;
   color: #444;
-  margin-bottom: 10px; /* Lebih dekat ke info-box */
+  margin-bottom: 12px; /* lebih rapat */
 }
-
 
 .no-sertifikat em {
   font-style: italic;
