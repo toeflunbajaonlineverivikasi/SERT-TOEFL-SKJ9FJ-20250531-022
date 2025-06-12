@@ -1,94 +1,96 @@
-/* Latar belakang biru tua */
+/* Gaya latar belakang dan font */
 body {
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
-  background: linear-gradient(to bottom right, #00264d, #004080); /* biru tua */
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom right, #004080, #0059b3);
 }
 
-/* Buat kontainer isi sertifikat di tengah dan besar */
+/* Kontainer utama */
 .container {
-  max-width: 800px;
-  margin: 50px auto;
-  background-color: white;
-  padding: 40px 50px;
+  max-width: 600px;
+  margin: 40px auto;
+  background: white;
+  padding: 30px 20px;
   border-radius: 15px;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
-  text-align: center; /* Agar semua isi teks awal di tengah */
+  text-align: center;
 }
 
-/* Logo di tengah dan cukup besar */
+/* Logo */
 .logo {
-  display: block;
-  margin: 0 auto 20px;
-  max-width: 150px;
+  max-width: 100px;
+  margin-bottom: 20px;
 }
 
-/* Judul utama */
+/* Judul */
 h1 {
-  font-size: 32px;
+  font-size: 24px;
   font-weight: bold;
+  color: #1a1a1a;
   margin-bottom: 10px;
   line-height: 1.4;
 }
 
-/* No Sertifikat */
+/* Nomor sertifikat */
 .no-sertifikat {
-  font-size: 16px;
-  color: #1d3557;
+  font-size: 14px;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.no-sertifikat em {
   font-style: italic;
-  margin-bottom: 30px;
+  font-weight: 600;
+  color: #555;
 }
 
-/* Kotak info identitas */
+.no-sertifikat span {
+  color: #666;
+}
+
+/* Box data */
 .info-box {
-  margin-top: 30px;
-  text-align: left; /* Kembali ke kiri untuk isi data */
+  margin-top: 20px;
+  text-align: left;
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 10px;
 }
 
+/* Baris informasi */
 .row {
   display: flex;
   justify-content: space-between;
-  padding: 8px 0;
-  border-bottom: 1px solid #ccc;
+  padding: 10px 12px;
+  background-color: white;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05);
 }
 
-.row span {
-  font-size: 16px;
-}
-
-/* Teks "VALID" warna hijau */
-.valid {
-  color: green;
-}
-
-/* Footer */
-.footer {
-  margin-top: 40px;
-  font-size: 14px;
-  color: #555;
-  text-align: center;
-}
-
-.footer-title {
-  font-weight: 600;
-  color: #555;
-  font-size: 14px;
-  line-height: 1.6;
-}
-
-.footer-title em {
-  font-style: italic;
-  color: #555;
-}
-
-.footer-title strong {
+.label {
   font-weight: bold;
   color: #333;
 }
 
-.copyright {
-  margin-top: 10px;
-  font-size: 13px;
-  color: #777;
+.value {
+  color: #333;
+}
+
+.valid {
+  color: green;
+  font-weight: bold;
+}
+
+/* Responsif untuk layar kecil */
+@media (max-width: 480px) {
+  .row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .value {
+    margin-top: 5px;
+  }
 }
