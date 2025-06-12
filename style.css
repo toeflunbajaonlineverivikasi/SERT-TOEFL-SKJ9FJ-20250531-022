@@ -17,20 +17,21 @@ body {
   text-align: center;
 }
 
-/* Logo */
 .logo {
-  max-width: 150px;
-  margin-bottom: 0px; /* hapus jarak ke bawah */
+  max-width: 400px;
+  margin-bottom: 0px; /* semula 4px, jadi 0 supaya lebih dekat ke teks */
 }
 
-/* Judul */
-h1 {
-  font-size: 40px; /* lebih besar */
+h1, h2 {
+  font-size: 52px; /* optional: bisa lebih besar juga */
   font-weight: bold;
   color: #1a1a1a;
-  line-height: 1.1;
-  margin-bottom: 4px; /* kecilkan jarak ke bawah */
+  margin-top: 0px; /* supaya heading lebih naik ke atas */
+  margin-bottom: 10px;
+  line-height: 1.3;
+  text-transform: uppercase;
 }
+
 
 /* Nomor sertifikat */
 .no-sertifikat {
