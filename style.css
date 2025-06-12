@@ -3,10 +3,10 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background: linear-gradient(to bottom right, #00264d, #004080); /* biru tua */
+  background: linear-gradient(to bottom right, #00264d, #004080);
 }
 
-/* Buat kontainer isi sertifikat di tengah dan besar */
+/* Kontainer isi sertifikat */
 .container {
   max-width: 800px;
   margin: 50px auto;
@@ -14,52 +14,62 @@ body {
   padding: 40px 50px;
   border-radius: 15px;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
-  text-align: center; /* Agar semua isi teks awal di tengah */
+  text-align: center;
 }
 
-/* Logo di tengah dan cukup besar */
+/* Logo UNBAJA di tengah */
 .logo {
   display: block;
   margin: 0 auto 20px;
-  max-width: 150px;
+  max-width: 120px;
 }
 
 /* Judul utama */
 h1 {
   font-size: 32px;
   font-weight: bold;
-  margin-bottom: 10px;
+  margin: 0 0 10px;
   line-height: 1.4;
 }
 
 /* No Sertifikat */
 .no-sertifikat {
   font-size: 16px;
-  color: #1d3557;
   font-style: italic;
+  color: #1d3557;
   margin-bottom: 30px;
 }
 
-/* Kotak info identitas */
+/* Box data */
 .info-box {
-  margin-top: 30px;
-  text-align: left; /* Kembali ke kiri untuk isi data */
+  margin-top: 20px;
+  text-align: left;
 }
 
+/* Baris isi data */
 .row {
   display: flex;
   justify-content: space-between;
-  padding: 8px 0;
+  padding: 10px 0;
+  font-size: 16px;
   border-bottom: 1px solid #ccc;
 }
 
-.row span {
-  font-size: 16px;
+/* Label dan isi data */
+.label {
+  font-weight: bold;
+  color: #333;
 }
 
-/* Teks "VALID" warna hijau */
+.value {
+  color: #333;
+  text-align: right;
+}
+
+/* Teks "VALID" */
 .valid {
   color: green;
+  font-weight: bold;
 }
 
 /* Footer */
@@ -67,24 +77,24 @@ h1 {
   margin-top: 40px;
   font-size: 14px;
   color: #555;
-  text-align: center;
+  text-align: center;
 }
 
 .footer-title {
   font-weight: 600;
-  color: #555;
   font-size: 14px;
   line-height: 1.6;
-}
-
-.footer-title em {
-  font-style: italic;
   color: #555;
 }
 
 .footer-title strong {
   font-weight: bold;
   color: #333;
+}
+
+.footer-title em {
+  font-style: italic;
+  color: #555;
 }
 
 .copyright {
