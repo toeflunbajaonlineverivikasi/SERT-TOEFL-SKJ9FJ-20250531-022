@@ -1,0 +1,60 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f6f7fb;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  text-align: center;
+  margin-top: 30px;
+  background: white;
+  padding: 30px;
+  width: 95%;
+  max-width: 400px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  width: 90px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 22px;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.no-sertifikat {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.info-box {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f4f6f9;
+  padding: 12px 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.valid {
+  color: green;
+  font-weight: bold;
+}
+
+.qr {
+  margin-top: 20px;
+}
