@@ -1,12 +1,13 @@
 body {
-  font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
-  background: linear-gradient(to bottom right, #0056b3, #007acc);  /* Biru tua */
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to bottom right, #004080, #0066cc); /* biru tua */
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 40px;
 }
 
 /* Buat kotak putih di tengah */
@@ -21,14 +22,13 @@ body {
 }
 
 .container {
-  text-align: center;
-  margin-top: 30px;
-  background: white;
-  padding: 30px;
-  width: 95%;
-  max-width: 400px;
-  border-radius: 15px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 40px;
+  max-width: 700px;  /* ubah ukuran agar lebih besar */
+  width: 90%;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  text-align: center;
 }
 
 .logo {
