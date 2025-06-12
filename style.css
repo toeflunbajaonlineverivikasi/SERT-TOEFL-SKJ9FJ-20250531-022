@@ -23,7 +23,7 @@ body {
 }
 
 h1, h2 {
-  font-size: 52px; /* optional: bisa lebih besar juga */
+  font-size: 60px; /* optional: bisa lebih besar juga */
   font-weight: bold;
   color: #1a1a1a;
   margin-top: 0px; /* supaya heading lebih naik ke atas */
